@@ -30,12 +30,12 @@ private fun personalData(){
     val intent = (context as SecondActivity).intent
     val name = intent.getStringExtra("name")
     Column(Modifier.padding(4.dp) ) {
-        if (name == "arequipa"){
+        if (name == "Arequipa"){
             for (index in platosArequipa.indices){
                 Text(text = platosArequipa.get(index))
             }
         }
-        if (name == "cusco"){
+        if (name == "Cusco"){
             for (index in platosCusco.indices){
                 Text(text = platosCusco.get(index))
             }

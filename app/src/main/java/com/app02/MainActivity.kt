@@ -28,9 +28,3 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
-
-@Composable
-private fun personalData(name:String){
-    Text(text = "Mi nombre es $name")
-}
